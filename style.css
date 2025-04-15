@@ -1,0 +1,46 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #007BFF;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+main {
+    padding: 1rem;
+}
+.cars {
+    margin-bottom: 2rem;
+}
+.car-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.car {
+    background: white;
+    padding: 1rem;
+    border-radius: 8px;
+    width: 150px;
+    text-align: center;
+}
+.car img {
+    max-width: 100%;
+    height: auto;
+}
+.form-section form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
